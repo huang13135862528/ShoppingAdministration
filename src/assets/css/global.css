@@ -1,0 +1,25 @@
+html,
+body,
+#app {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #eaedf1;
+}
+.box-card {
+  width: 81%;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/deep/ .el-card.is-always-shadow{
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+}
+.el-breadcrumb{
+  height: 14px;
+  font-size: 14px;
+  line-height: 1;
+}
+.el-cascader-panel{
+  height: 250px;
+}
